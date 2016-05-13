@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"> 
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="//epigenomegateway.wustl.edu/browser/style.css" />
+
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script type="text/javascript" src="js/vendor/jquery-1.11.2.min.js"></script>
+    </head>
+    <body>
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <div id="container_id">
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; Company 2015</p>
+      </footer>
+    </div> <!-- /container -->
+
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="//epigenomegateway.wustl.edu/browser/base.js"></script>
+    <script type="text/javascript" src="//epigenomegateway.wustl.edu/browser/personality.js"></script>
+    <script type="text/javascript" src="//epigenomegateway.wustl.edu/browser/embed.js"></script>
+    <script type='text/javascript'>
+      embed_washugb({
+        host:'//epigenomegateway.wustl.edu',
+        container:document.getElementById('container_id'),
+        genome:'hg19',
+        noDeleteButton:true,
+        publichubs:['roadmap'],
+        showSingularFacetTable:true
+      });
+    </script>
+    </body>
+</html>
